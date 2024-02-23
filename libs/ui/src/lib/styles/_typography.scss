@@ -1,0 +1,88 @@
+/* Headlines */
+.h1 {
+    font-weight: 500;
+    font-size: 44px;
+    font-family: Poppins, sans-serif;
+
+    @media screen and (width <= 959px) {
+        font-size: 32px;
+    }
+
+    @media screen and (width <= 479px) {
+        font-weight: 600;
+        font-size: 29px;
+    }
+}
+
+.h2 {
+    font-weight: 500;
+    font-size: 30px;
+    font-family: Poppins, sans-serif;
+
+    @media screen and (width <= 959px) {
+        font-size: 24px;
+    }
+
+    @media screen and (width <= 479px) {
+        font-weight: 600;
+        font-size: 22px;
+    }
+}
+
+.h3 {
+    font-weight: 600;
+    font-size: 22px;
+    font-family: Poppins, sans-serif;
+
+    @media screen and (width <= 479px) {
+        font-weight: 700;
+        font-size: 19px;
+    }
+}
+
+.h4 {
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+
+    @media screen and (width <= 479px) {
+        font-size: 16px;
+    }
+}
+
+/* Main text */
+.body-l {
+    font-weight: 400;
+    font-size: 22px;
+    font-family: Poppins, sans-serif;
+}
+
+.body-m {
+    font-weight: 300;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+}
+
+.body-m-regular {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+}
+
+.body-s {
+    font-weight: 300;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+}
+
+.body-s-regular {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+}
+
+.body-xs {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+}

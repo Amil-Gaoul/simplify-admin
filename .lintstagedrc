@@ -1,0 +1,11 @@
+{
+    "*.html": [
+        "eslint --fix"
+    ],
+    "*.{js,ts}": [
+        "eslint --fix"
+    ],
+    "*.{css,scss}": [
+        "stylelint --fix"
+    ]
+}

@@ -1,0 +1,87 @@
+:host {
+    &.button {
+        color: #FFF;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        cursor: pointer;
+
+        &_primary {
+            background-color: #9D3FE7;
+            border-color: #9D3FE7;
+
+            &:disabled {
+                background-color: #D4D2D5;
+                border-color: #D4D2D5;
+                cursor: default;
+            }
+
+            &:active:not(:disabled) {
+                background-color: #6A17AB;
+                border-color: #6A17AB;
+            }
+
+            @media (hover: hover) {
+                &:hover:not(:disabled) {
+                    background-color: #AE60EB;
+                    border-color: #AE60EB;
+
+                }
+            }
+        }
+
+        &_secondary {
+            color: #9D3FE7;
+            border-color: #9D3FE7;
+
+            &:disabled {
+                color: #D4D2D5;
+                border-color: #D4D2D5;
+                cursor: default;
+            }
+
+            &:active:not(:disabled) {
+                color: #6A17AB;
+                border-color: #6A17AB;
+            }
+
+            @media (hover: hover) {
+                &:hover:not(:disabled) {
+                    color: #AE60EB;
+                    border-color: #AE60EB;
+                }
+            }
+        }
+
+        &_basic {
+            color: #9D3FE7;
+
+            &:disabled {
+                color: #D4D2D5;
+                cursor: default;
+            }
+
+            &:active:not(:disabled) {
+                color: #6A17AB;
+            }
+
+            @media (hover: hover) {
+                &:hover:not(:disabled) {
+                    color: #AE60EB;
+                }
+            }
+        }
+
+        &_large {
+            padding: 12px 52px;
+        }
+
+        &_medium {
+            padding: 8px 28px;
+        }
+
+        &_small {
+            padding: 4px 12px;
+        }
+    }
+}
